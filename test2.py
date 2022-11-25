@@ -1,12 +1,12 @@
-from program import Fibonacci
+from program import finonacci
 import unittest
 
 class Test_Program(unittest.TestCase):
     def test_case_1(self):
-        r1 = Fibonacci(4)
+        r1 = finonacci(4)
         self.assertEqual(r1, 3)
     def test_case_2(self):
-        r2 = Fibonacci(7)
+        r2 = finonacci(7)
         self.assertEqual(r2,21)
    
 if __name__ == '__main__':
