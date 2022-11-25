@@ -1,21 +1,21 @@
-from program import sum_of_n_numbers
+from program import Fibonacci
 import unittest
 
 class Test_Program(unittest.TestCase):
     def test_case_1(self):
-        r1 = sum_of_n_numbers(5)
-        self.assertEqual(r1, 15)
+        r1 = Fibonacci(3)
+        self.assertEqual(r1, 2)
     def test_case_2(self):
-        r2 = sum_of_n_numbers(8)
-        self.assertEqual(r2,36)
+        r2 = Fibonacci(5)
+        self.assertEqual(r2,5)
     def test_case_3(self):
-        r3 = sum_of_n_numbers(10)
-        self.assertEqual(r3,50)
+        r3 = Fibonacci(7)
+        self.assertEqual(r3,12)
     def test_case_4(self):
-        r4 = sum_of_n_numbers(7)
-        self.assertEqual(r4,28)
+        r4 = Fibonacci(10)
+        self.assertEqual(r4,55)
     def test_case_5(self):
-        r5 = sum_of_n_numbers(12)
-        self.assertEqual(r5,55)
+        r5 = Fibonacci(12)
+        self.assertEqual(r5,145)
 if __name__ == '__main__':
     unittest.main()
