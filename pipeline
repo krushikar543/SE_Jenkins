@@ -1,5 +1,6 @@
 pipeline{
-    agent any stages {
+    agent any
+    stages {
         stage('Clone Git'){
             steps{
                 git 'https://github.com/krushikar543/SE_Jenkins.git'
