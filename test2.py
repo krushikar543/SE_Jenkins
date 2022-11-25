@@ -7,7 +7,7 @@ class Test_Program(unittest.TestCase):
         self.assertEqual(r1, 3)
     def test_case_2(self):
         r2 = fibonacci(7)
-        self.assertEqual(r2,21)
+        self.assertEqual(r2,13)
    
 if __name__ == '__main__':
     unittest.main()
