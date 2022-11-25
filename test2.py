@@ -1,4 +1,4 @@
-from program import finonacci
+from program import fibonacci
 import unittest
 
 class Test_Program(unittest.TestCase):
